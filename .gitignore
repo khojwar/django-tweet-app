@@ -1,0 +1,22 @@
+# Ignore the virtual environment
+venv/
+.env/
+
+# Ignore Python compiled files
+*.pyc
+__pycache__/
+
+# Ignore environment variables
+.env
+
+# Ignore database files
+*.sqlite3
+
+# Ignore other temporary files
+*.log
+*.bak
+*.swp
+.DS_Store
+
+# Ignore node_modules folder if you are using Node.js
+node_modules/

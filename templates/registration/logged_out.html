@@ -1,0 +1,15 @@
+{% extends "layout.html" %}
+
+{% block content %}
+
+<h2>Login Form</h2>
+<form method="post">
+    {% csrf_token %}
+    {{form.as_p}}
+
+    <button type="submit" class="btn btn-primary">Login</button>
+</form>
+
+<p>You have been logged out<a href="{% url 'login' %}">Login here</a></p>
+
+{% endblock %}
